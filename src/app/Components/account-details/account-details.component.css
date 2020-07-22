@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+  }
+  body {
+    
+    padding-left:50px;
+    font-family: sans-serif;
+  }
+  label {
+    color: blue;
+  }
+  .link{
+    color:#5099eff2;
+    text-decoration: underline;
+    margin-left: 2vw;
+    cursor: pointer;
+  }
+  #details{
+    font-size: larger;
+    margin-left: 36vw;
+    margin-top: 5vh;
+  }
+  #title{
+    color: royalblue;
+    margin-top: 5vh;
+    margin-left: 40vw;
+  }
+
+  
