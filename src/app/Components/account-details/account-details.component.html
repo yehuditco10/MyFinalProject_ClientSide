@@ -1,0 +1,16 @@
+<h1 id="title">Account Detailes</h1>
+<div *ngIf="accuontDetailsService.account"id="details" >
+    <label>First Name</label>
+    {{accuontDetailsService.account.firstName}}
+    <br>
+    <label>Last Name</label>
+    {{accuontDetailsService.account.lastName}}
+    <br>
+    <label>Open Date</label>
+    {{accuontDetailsService.account.opendate|date}}
+    <br>
+    <label>Balance</label>
+    {{accuontDetailsService.account.balance}}
+</div>
+
+
