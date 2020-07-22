@@ -35,13 +35,11 @@
             <mat-error *ngIf="checkError('confirmPassword', 'minlength')">password must be at least 6 characters long.</mat-error>
         </mat-form-field>
         <br>
+
         <button type="submit" [disabled]="!registerForm.valid">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             Submit
         </button>
     </form>
+  
     <span style="color: azure;">{{message}}</span>
 </div>

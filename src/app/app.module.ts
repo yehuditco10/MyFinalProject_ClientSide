@@ -15,6 +15,7 @@ import {MatCardModule} from '@angular/material/card';
 import { MenuComponent } from './components/menu/menu.component';
 import {MatIconModule} from '@angular/material/icon';
 import { LogOutComponent } from './components/log-out/log-out.component';
+import { VerificationEmailComponent } from './Components/register/verification-email/verification-email.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { LogOutComponent } from './components/log-out/log-out.component';
     RegisterComponent,
     AccountDetailsComponent,
     MenuComponent,
-    LogOutComponent
+    LogOutComponent,
+    VerificationEmailComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { LogOutComponent } from './components/log-out/log-out.component';
       { path: '', component: LoginComponent },
       { path: 'register', component: RegisterComponent },
       { path: 'login', component: LoginComponent },
-      { path:'accountDetails',component: AccountDetailsComponent}
+      { path:'accountDetails',component: AccountDetailsComponent},
+      { path:'verification',component: VerificationEmailComponent}
       ]),
       MatCardModule,
       MatIconModule
